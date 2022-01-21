@@ -17,7 +17,7 @@ module.exports = {
     },
     extend: {
       fontFamily: {
-        'custom': ['Georama'],
+        'body': ['Outfit'],
       },
       borderWidth: {
         '3': '3px',
