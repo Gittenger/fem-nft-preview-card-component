@@ -5,7 +5,7 @@ import styles from './styles/ItemCard.module.css'
 
 const {
   img: { MainImg },
-  svg: { EthImg, ClockImg },
+  svg: { EthImg, ClockImg, EyeImg },
 } = images
 
 const ItemCard = () => {
@@ -15,7 +15,16 @@ const ItemCard = () => {
     <div
       className={`bg-darkBlue-bgCard rounded-2xl font-body text-softBlue p-5 ${styles.wrapper} `}
     >
-      <div>
+      <div className="relative">
+        <div
+          className={`group absolute duration-300 cursor-pointer top-0 left-0 w-full h-full flex justify-center items-center rounded-2xl bg-cyan hover:bg-cyan bg-opacity-0 hover:bg-opacity-50`}
+        >
+          <img
+            className="group-hover:opacity-100 opacity-0 duration-300"
+            src={EyeImg}
+            alt=""
+          />
+        </div>
         <img className="rounded-lg" src={MainImg} alt="" />
       </div>
       <div className="mt-5">
@@ -46,7 +55,7 @@ const ItemCard = () => {
           className={`border-2 border-white mr-5 rounded-full ${styles.circle}`}
         ></div>
         <p>
-          Creation of
+          Creation of{' '}
           <span className="text-white duration-300 cursor-pointer hover:text-cyan">
             Jules Wyvern
           </span>
