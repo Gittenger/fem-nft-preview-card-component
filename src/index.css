@@ -27,7 +27,7 @@
 
 @layer components {
   .layout {
-    @apply flex flex-col justify-center items-center mx-auto w-full;
+    @apply flex flex-col justify-center items-center mx-auto w-full pb-36;
   }
 
   .content {

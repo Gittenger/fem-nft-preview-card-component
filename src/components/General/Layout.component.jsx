@@ -8,7 +8,7 @@ const ContentStyles = 'content'
 const Layout = ({ children }) => {
   const { Header } = CIndex
   return (
-    <div className={LayoutStyles}>
+    <div className={`bg-darkBlue-bgMain min-h-screen ${LayoutStyles}`}>
       <Header />
       <div className={ContentStyles}>{children}</div>
     </div>
