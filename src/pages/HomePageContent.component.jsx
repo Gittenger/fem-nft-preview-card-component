@@ -3,7 +3,7 @@ import React, { useEffect } from 'react'
 import CIndex from '../components/components.index.js'
 
 const HomePageContent = () => {
-  const {} = CIndex
+  const { ItemCard } = CIndex
 
   useEffect(() => {
     window.scrollTo(0, 0)
@@ -11,7 +11,7 @@ const HomePageContent = () => {
 
   return (
     <>
-      <div className="w-full grid justify-items-center px-5">hello</div>
+      <ItemCard />
     </>
   )
 }

@@ -3,7 +3,7 @@ import HomePageContent from './HomePageContent.component.jsx'
 import getPage from './PageComponent.jsx'
 
 const pages = {
-  HomePage: getPage('Home', HomePageContent),
+  HomePage: getPage('Component', HomePageContent),
 }
 
 export const { HomePage } = pages
