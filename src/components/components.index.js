@@ -1,8 +1,7 @@
-import Header from "./General/Header.component.jsx"
-import Layout from "./General/Layout.component.jsx"
-import Login from "./General/Login.component.jsx"
+import Header from './General/Header.component.jsx'
+import Layout from './General/Layout.component.jsx'
 export const CIndex = {
-		Header,Layout,Login
-	}
-	export default CIndex
-	
+  Header,
+  Layout,
+}
+export default CIndex
