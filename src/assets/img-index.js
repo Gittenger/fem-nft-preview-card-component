@@ -1,6 +1,9 @@
+import MainImg from './img/image-equilibrium.jpg'
+import EthImg from './svg/icon-ethereum.svg'
+
 export const images = {
-  img: {},
-  svg: {},
+  img: { MainImg },
+  svg: { EthImg },
   tiny: {},
 }
 
