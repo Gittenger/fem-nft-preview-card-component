@@ -5,7 +5,7 @@ import styles from './styles/ItemCard.module.css'
 
 const {
   img: { MainImg, AvatarImg },
-  svg: { EthImg },
+  svg: { EthImg, ClockImg },
 } = images
 
 const arbStyles = {
@@ -35,7 +35,19 @@ const ItemCard = () => {
           Our equilibrium collection promotes balance and calm.
         </p>
 
-        <IconListItem imgSrc={EthImg} textContent="0.041 ETH" />
+        <div className="flex justify-start items-center">
+          <IconListItem
+            imgSrc={EthImg}
+            color="cyan"
+            textContent="0.041 ETH"
+            className="mr-auto"
+          />
+          <IconListItem
+            imgSrc={ClockImg}
+            color="none"
+            textContent="0.041 ETH"
+          />
+        </div>
       </div>
       <div className="h-px w-full my-3 bg-darkBlue-line"></div>
       <div className="mt-4 flex justify-start items-center">
