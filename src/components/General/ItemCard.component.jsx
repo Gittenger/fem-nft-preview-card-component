@@ -19,7 +19,9 @@ const ItemCard = () => {
         <img className="rounded-lg" src={MainImg} alt="" />
       </div>
       <div className="mt-5">
-        <h1 className="text-white font-bold text-2xl">Equilibrium #3429</h1>
+        <h1 className="text-white font-bold text-2xl duration-300 hover:text-cyan cursor-pointer">
+          Equilibrium #3429
+        </h1>
         <p className="mt-3.5 mb-5 leading-relaxed">
           Our equilibrium collection promotes balance and calm.
         </p>
@@ -44,7 +46,10 @@ const ItemCard = () => {
           className={`border-2 border-white mr-5 rounded-full ${styles.circle}`}
         ></div>
         <p>
-          Creation of <span className="text-white">Jules Wyvern</span>
+          Creation of
+          <span className="text-white duration-300 cursor-pointer hover:text-cyan">
+            Jules Wyvern
+          </span>
         </p>
       </div>
     </div>
