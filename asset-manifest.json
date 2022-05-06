@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/fem-nft-preview-card-component/static/css/main.ad5194a3.chunk.css",
+    "main.js": "/fem-nft-preview-card-component/static/js/main.09c2ff1b.chunk.js",
+    "main.js.map": "/fem-nft-preview-card-component/static/js/main.09c2ff1b.chunk.js.map",
+    "runtime-main.js": "/fem-nft-preview-card-component/static/js/runtime-main.41375d13.js",
+    "runtime-main.js.map": "/fem-nft-preview-card-component/static/js/runtime-main.41375d13.js.map",
+    "static/js/2.a274af99.chunk.js": "/fem-nft-preview-card-component/static/js/2.a274af99.chunk.js",
+    "static/js/2.a274af99.chunk.js.map": "/fem-nft-preview-card-component/static/js/2.a274af99.chunk.js.map",
+    "index.html": "/fem-nft-preview-card-component/index.html",
+    "static/css/main.ad5194a3.chunk.css.map": "/fem-nft-preview-card-component/static/css/main.ad5194a3.chunk.css.map",
+    "static/js/2.a274af99.chunk.js.LICENSE.txt": "/fem-nft-preview-card-component/static/js/2.a274af99.chunk.js.LICENSE.txt",
+    "static/media/index.css": "/fem-nft-preview-card-component/static/media/Outfit-SemiBold.0458369a.ttf",
+    "static/media/icon-clock.991a6522.svg": "/fem-nft-preview-card-component/static/media/icon-clock.991a6522.svg",
+    "static/media/icon-ethereum.5221f332.svg": "/fem-nft-preview-card-component/static/media/icon-ethereum.5221f332.svg",
+    "static/media/icon-view.fedac551.svg": "/fem-nft-preview-card-component/static/media/icon-view.fedac551.svg",
+    "static/media/image-equilibrium.88bdbc91.jpg": "/fem-nft-preview-card-component/static/media/image-equilibrium.88bdbc91.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.41375d13.js",
+    "static/js/2.a274af99.chunk.js",
+    "static/css/main.ad5194a3.chunk.css",
+    "static/js/main.09c2ff1b.chunk.js"
+  ]
+}
